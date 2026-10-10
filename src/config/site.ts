@@ -49,10 +49,13 @@ googleReviewUrl: 'https://g.page/r/Cb-J_r2HF-TGEA0/review',
   tagline: 'Cuidado com a visão, conforto e escolha dos óculos',
 } as const;
 
+
 export const navLinks = [
   { to: '/', label: 'Início' },
+  { to: '/quem-somos', label: 'Quem somos' },
   { to: '/lentes', label: 'Lentes e visão' },
   { to: '/cuidados-e-garantias', label: 'Cuidados e garantias' },
   { to: '/espaco-infantil', label: 'Espaço Infantil' },
   { to: '/contato', label: 'Contato e visitas' },
 ] as const;
+

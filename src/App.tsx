@@ -9,6 +9,9 @@ import CareWarranty from '@/pages/CareWarranty';
 import Kids from '@/pages/Kids';
 import Contact from '@/pages/Contact';
 import NotFound from '@/pages/NotFound';
+import QuemSomos from '@/pages/QuemSomos';
+import DuvidasFrequentes from '@/pages/DuvidasFrequentes';
+import NossaHistoria from '@/pages/NossaHistoria';
 import VisualEffects from '@/components/VisualEffects';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
@@ -27,7 +30,10 @@ function App() {
             <Route path="/cuidados-e-garantias" element={<CareWarranty />} />
             <Route path="/espaco-infantil" element={<Kids />} />
             <Route path="/contato" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />           
+            <Route path="/quem-somos" element={<QuemSomos />} />        
+            <Route path="/nossa-historia" element={<NossaHistoria />} />
+            <Route path="/duvidas-frequentes" element={<DuvidasFrequentes />} />
           </Routes>
         </main>
         <Footer />

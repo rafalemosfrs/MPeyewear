@@ -258,3 +258,1029 @@ img.lazy-fade { opacity:1; }
 .brand-link { mix-blend-mode:multiply; }
 @media(max-width:767px) { .brand-strip { gap:10px; }.brand-strip > span { font-size:16px; }.brand-strip > span:nth-child(even) { display:none; } }
 @media(min-width:768px) and (max-width:1099px) { .brand-strip > span:nth-child(n+6) { display:none; }.hero-period { display:none; } }
+
+
+/* QUEM SOMOS */
+
+.about-intro {
+  background: #F7F3EC;
+  padding: 160px 5% 90px;
+}
+
+.about-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9%;
+}
+
+.about-intro-copy .eyebrow {
+  color: #8D6D5B;
+}
+
+.about-intro-copy h1 {
+  font-size: clamp(42px, 5vw, 72px);
+  line-height: 1.15;
+  margin: 30px 0;
+}
+
+.about-intro-copy h1 em {
+  color: #5A4039;
+}
+
+.about-intro-copy p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #746E69;
+  max-width: 470px;
+  margin-bottom: 32px;
+}
+
+.about-intro-image img {
+  width: 100%;
+  height: 470px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* HISTÓRIA - ABERTURA */
+
+.history-hero {
+  background: #EFE7DD;
+  padding: 175px 5% 85px;
+}
+
+.history-hero .eyebrow {
+  color: #8D6D5B;
+}
+
+.history-hero h1 {
+  font-size: clamp(48px, 6vw, 88px);
+  line-height: 1.12;
+  margin: 30px 0;
+}
+
+.history-hero h1 em {
+  color: #5A4039;
+}
+
+.history-hero p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #746E69;
+  max-width: 490px;
+}
+
+.history-period {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 420px;
+  margin-top: 60px;
+  color: #5A4039;
+  font-size: 11px;
+  letter-spacing: .2em;
+}
+
+.history-period-line {
+  height: 1px;
+  flex: 1;
+  background: #B3925E;
+}
+
+/* LINHA DO TEMPO */
+
+.history-timeline {
+  background: #F7F3EC;
+}
+
+.history-section {
+  padding: 95px 5%;
+  border-bottom: 1px solid #D8C8B580;
+}
+
+.history-section:nth-child(even) {
+  background: #F2ECE3;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 50px;
+}
+
+.history-marker {
+  border-top: 1px solid #B3925E;
+  padding-top: 18px;
+  color: #B3925E;
+  font-size: 13px;
+  letter-spacing: .1em;
+}
+
+.history-content {
+  max-width: 790px;
+}
+
+.history-content .eyebrow {
+  color: #8D6D5B;
+}
+
+.history-content h2 {
+  font-size: clamp(32px, 3.6vw, 50px);
+  line-height: 1.2;
+  margin: 20px 0 28px;
+}
+
+.history-content > p {
+  font-size: 15px;
+  line-height: 2;
+  color: #746E69;
+  margin-bottom: 20px;
+  max-width: 670px;
+}
+
+.history-image {
+  margin-top: 42px;
+}
+
+.history-image img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.history-image figcaption {
+  font-size: 10px;
+  letter-spacing: .14em;
+  color: #8D6D5B;
+  margin-top: 15px;
+}
+
+/* FRASE DE DESTAQUE */
+
+.history-quote-section {
+  padding: 115px 5%;
+  background: #5A4039;
+  text-align: center;
+}
+
+.history-quote-section p {
+  font-size: clamp(28px, 4vw, 54px);
+  line-height: 1.4;
+  color: #F7F3EC;
+}
+
+.history-quote-section em {
+  color: #D8C8B5;
+}
+
+/* ENCERRAMENTO */
+
+.history-final-cta {
+  padding: 110px 5%;
+  background: #E9DFD2;
+  text-align: center;
+}
+
+.history-final-cta .eyebrow {
+  color: #8D6D5B;
+}
+
+.history-final-cta h2 {
+  font-size: clamp(40px, 5vw, 68px);
+  line-height: 1.15;
+  margin: 26px 0;
+}
+
+.history-final-cta h2 em {
+  color: #5A4039;
+}
+
+.history-final-cta p {
+  color: #746E69;
+  margin-bottom: 30px;
+}
+
+.history-cta-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 767px) {
+  .about-intro {
+    padding: 130px 6% 55px;
+  }
+
+  .about-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-intro-copy h1 {
+    font-size: clamp(38px, 9vw, 54px);
+  }
+
+  .about-intro-copy p {
+    font-size: 14px;
+  }
+
+  .about-intro-image img {
+    height: 290px;
+  }
+
+  .history-hero {
+    padding: 135px 6% 65px;
+  }
+
+  .history-hero h1 {
+    font-size: clamp(42px, 10vw, 58px);
+  }
+
+  .history-hero p {
+    font-size: 14px;
+  }
+
+  .history-section {
+    padding: 65px 6%;
+  }
+
+  .history-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .history-marker {
+    width: 55px;
+  }
+
+  .history-content h2 {
+    font-size: 34px;
+  }
+
+  .history-content > p {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+  .history-image {
+    margin-top: 30px;
+  }
+
+  .history-image img {
+    max-height: 380px;
+  }
+
+  .history-quote-section {
+    padding: 80px 6%;
+  }
+
+  .history-final-cta {
+    padding: 80px 6%;
+  }
+}
+
+
+/* QUEM SOMOS */
+
+.about-intro {
+  background: #F7F3EC;
+  padding: 160px 5% 90px;
+}
+
+.about-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9%;
+}
+
+.about-intro-copy .eyebrow {
+  color: #8D6D5B;
+}
+
+.about-intro-copy h1 {
+  font-size: clamp(42px, 5vw, 72px);
+  line-height: 1.15;
+  margin: 30px 0;
+}
+
+.about-intro-copy h1 em {
+  color: #5A4039;
+}
+
+.about-intro-copy p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #746E69;
+  max-width: 470px;
+  margin-bottom: 32px;
+}
+
+.about-intro-image img {
+  width: 100%;
+  height: 470px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* HISTÓRIA - ABERTURA */
+
+.history-hero {
+  background: #EFE7DD;
+  padding: 175px 5% 85px;
+}
+
+.history-hero .eyebrow {
+  color: #8D6D5B;
+}
+
+.history-hero h1 {
+  font-size: clamp(48px, 6vw, 88px);
+  line-height: 1.12;
+  margin: 30px 0;
+}
+
+.history-hero h1 em {
+  color: #5A4039;
+}
+
+.history-hero p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #746E69;
+  max-width: 490px;
+}
+
+.history-period {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 420px;
+  margin-top: 60px;
+  color: #5A4039;
+  font-size: 11px;
+  letter-spacing: .2em;
+}
+
+.history-period-line {
+  height: 1px;
+  flex: 1;
+  background: #B3925E;
+}
+
+/* LINHA DO TEMPO */
+
+.history-timeline {
+  background: #F7F3EC;
+}
+
+.history-section {
+  padding: 95px 5%;
+  border-bottom: 1px solid #D8C8B580;
+}
+
+.history-section:nth-child(even) {
+  background: #F2ECE3;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 50px;
+}
+
+.history-marker {
+  border-top: 1px solid #B3925E;
+  padding-top: 18px;
+  color: #B3925E;
+  font-size: 13px;
+  letter-spacing: .1em;
+}
+
+.history-content {
+  max-width: 790px;
+}
+
+.history-content .eyebrow {
+  color: #8D6D5B;
+}
+
+.history-content h2 {
+  font-size: clamp(32px, 3.6vw, 50px);
+  line-height: 1.2;
+  margin: 20px 0 28px;
+}
+
+.history-content > p {
+  font-size: 15px;
+  line-height: 2;
+  color: #746E69;
+  margin-bottom: 20px;
+  max-width: 670px;
+}
+
+.history-image {
+  margin-top: 42px;
+}
+
+.history-image img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.history-image figcaption {
+  font-size: 10px;
+  letter-spacing: .14em;
+  color: #8D6D5B;
+  margin-top: 15px;
+}
+
+/* FRASE DE DESTAQUE */
+
+.history-quote-section {
+  padding: 115px 5%;
+  background: #5A4039;
+  text-align: center;
+}
+
+.history-quote-section p {
+  font-size: clamp(28px, 4vw, 54px);
+  line-height: 1.4;
+  color: #F7F3EC;
+}
+
+.history-quote-section em {
+  color: #D8C8B5;
+}
+
+/* ENCERRAMENTO */
+
+.history-final-cta {
+  padding: 110px 5%;
+  background: #E9DFD2;
+  text-align: center;
+}
+
+.history-final-cta .eyebrow {
+  color: #8D6D5B;
+}
+
+.history-final-cta h2 {
+  font-size: clamp(40px, 5vw, 68px);
+  line-height: 1.15;
+  margin: 26px 0;
+}
+
+.history-final-cta h2 em {
+  color: #5A4039;
+}
+
+.history-final-cta p {
+  color: #746E69;
+  margin-bottom: 30px;
+}
+
+.history-cta-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 767px) {
+  .about-intro {
+    padding: 130px 6% 55px;
+  }
+
+  .about-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-intro-copy h1 {
+    font-size: clamp(38px, 9vw, 54px);
+  }
+
+  .about-intro-copy p {
+    font-size: 14px;
+  }
+
+  .about-intro-image img {
+    height: 290px;
+  }
+
+  .history-hero {
+    padding: 135px 6% 65px;
+  }
+
+  .history-hero h1 {
+    font-size: clamp(42px, 10vw, 58px);
+  }
+
+  .history-hero p {
+    font-size: 14px;
+  }
+
+  .history-section {
+    padding: 65px 6%;
+  }
+
+  .history-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .history-marker {
+    width: 55px;
+  }
+
+  .history-content h2 {
+    font-size: 34px;
+  }
+
+  .history-content > p {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+  .history-image {
+    margin-top: 30px;
+  }
+
+  .history-image img {
+    max-height: 380px;
+  }
+
+  .history-quote-section {
+    padding: 80px 6%;
+  }
+
+  .history-final-cta {
+    padding: 80px 6%;
+  }
+}
+
+
+/* DÚVIDAS FREQUENTES - PÁGINA INICIAL */
+
+.home-faq-section {
+  padding: 80px 5%;
+  background: #F7F3EC;
+  border-top: 1px solid #D8C8B5;
+}
+
+.home-faq-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 10%;
+  align-items: start;
+}
+
+.home-faq-intro .eyebrow {
+  color: #8D6D5B;
+}
+
+.home-faq-intro h2 {
+  font-size: clamp(36px, 4vw, 54px);
+  line-height: 1.2;
+  margin: 22px 0 28px;
+}
+
+.home-faq-intro h2 em {
+  color: #5A4039;
+}
+
+/* PÁGINA COMPLETA */
+
+.faq-page-hero {
+  padding: 165px 5% 90px;
+  background: #EFE7DD;
+}
+
+.faq-page-hero .eyebrow {
+  color: #8D6D5B;
+}
+
+.faq-page-hero h1 {
+  font-size: clamp(48px, 5.5vw, 78px);
+  line-height: 1.1;
+  margin: 30px 0;
+}
+
+.faq-page-hero h1 em {
+  color: #5A4039;
+}
+
+.faq-page-hero p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #746E69;
+  max-width: 450px;
+}
+
+.faq-page-content {
+  padding: 100px 5%;
+  background: #F7F3EC;
+}
+
+.faq-page-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 9%;
+  align-items: start;
+}
+
+.faq-page-intro {
+  position: sticky;
+  top: 135px;
+}
+
+.faq-page-intro .eyebrow {
+  color: #8D6D5B;
+}
+
+.faq-page-intro h2 {
+  font-size: clamp(32px, 3.4vw, 48px);
+  line-height: 1.2;
+  margin: 24px 0;
+}
+
+.faq-page-intro h2 em {
+  color: #5A4039;
+}
+
+.faq-page-intro p {
+  font-size: 14px;
+  line-height: 1.9;
+  color: #746E69;
+  max-width: 350px;
+}
+
+/* LINKS NAS RESPOSTAS */
+
+.faq-answer .text-link {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 18px;
+  font-weight: 600;
+  color: #5A4039;
+}
+
+.faq-answer .text-link:hover {
+  color: #111617;
+}
+
+/* CONTATO FINAL */
+
+.faq-contact-section {
+  background: #E9DFD2;
+  padding: 95px 5%;
+}
+
+.faq-contact-inner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-contact-inner > svg {
+  color: #8D6D5B;
+  margin-bottom: 25px;
+}
+
+.faq-contact-inner .eyebrow {
+  color: #8D6D5B;
+}
+
+.faq-contact-inner h2 {
+  font-size: clamp(38px, 4.5vw, 62px);
+  line-height: 1.15;
+  margin: 25px 0;
+}
+
+.faq-contact-inner h2 em {
+  color: #5A4039;
+}
+
+.faq-contact-inner p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #746E69;
+  margin-bottom: 28px;
+  max-width: 400px;
+}
+
+/* CELULARES E TABLETS */
+
+@media (max-width: 767px) {
+  .home-faq-section {
+    padding: 65px 6%;
+  }
+
+  .home-faq-grid,
+  .faq-page-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .home-faq-intro h2 {
+    font-size: 38px;
+  }
+
+  .faq-page-hero {
+    padding: 130px 6% 60px;
+  }
+
+  .faq-page-hero h1 {
+    font-size: 48px;
+  }
+
+  .faq-page-hero p {
+    font-size: 14px;
+  }
+
+  .faq-page-content {
+    padding: 65px 6%;
+  }
+
+  .faq-page-intro {
+    position: static;
+  }
+
+  .faq-page-intro h2 {
+    font-size: 35px;
+  }
+
+  .faq-contact-section {
+    padding: 75px 6%;
+  }
+}
+
+
+/* ======================================
+   QUEM SOMOS - MP EYEWEAR
+====================================== */
+
+.about-intro {
+  background: #F7F3EC;
+  padding: 160px 5% 90px;
+}
+
+/* APRESENTAÇÃO */
+
+.about-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9%;
+}
+
+.about-intro-copy .eyebrow {
+  color: #8D6D5B;
+}
+
+.about-intro-copy h1 {
+  font-size: clamp(42px, 5vw, 72px);
+  line-height: 1.15;
+  margin: 30px 0;
+}
+
+.about-intro-copy h1 em {
+  color: #5A4039;
+}
+
+.about-intro-copy p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #746E69;
+  max-width: 470px;
+  margin-bottom: 32px;
+}
+
+.about-intro-image img {
+  width: 100%;
+  height: 470px;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+}
+
+/* GALERIA DOS PROPRIETÁRIOS */
+
+.mp-founders {
+  max-width: 1100px;
+  margin: 90px auto 0;
+}
+
+.mp-founders-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mp-founders-heading .eyebrow {
+  color: #8D6D5B;
+}
+
+.mp-founders-heading h2 {
+  font-size: clamp(30px, 3.4vw, 46px);
+  line-height: 1.2;
+  margin-top: 18px;
+}
+
+.mp-founders-heading h2 em {
+  color: #5A4039;
+}
+
+.mp-founders-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* FOTOS DE CRISTIAN E EVELINNE */
+
+.mp-founder-photo {
+  margin: 0;
+  min-width: 0;
+}
+
+.mp-founder-photo img {
+  width: 100%;
+  height: 470px;
+  object-fit: cover;
+  object-position: center 28%;
+  border-radius: 6px;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.mp-founder-photo figcaption {
+  padding-top: 16px;
+  color: #5A4039;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* FOTO DO KIT */
+
+.mp-kit-photo {
+  grid-column: 1 / -1;
+  margin: 12px 0 0;
+}
+
+.mp-kit-photo img {
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
+  display: block;
+}
+
+.mp-kit-photo figcaption {
+  margin-top: 16px;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: #8D6D5B;
+}
+
+/* TABLETS */
+
+@media (max-width: 1099px) {
+  .about-intro {
+    padding-top: 145px;
+  }
+
+  .mp-founder-photo img {
+    height: 370px;
+  }
+
+  .mp-kit-photo img {
+    height: 360px;
+  }
+}
+
+/* CELULARES */
+
+@media (max-width: 767px) {
+  .about-intro {
+    padding: 125px 6% 65px;
+  }
+
+  .about-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-intro-copy h1 {
+    font-size: clamp(38px, 9vw, 54px);
+  }
+
+  .about-intro-copy p {
+    font-size: 14px;
+  }
+
+  .about-intro-image img {
+    height: 290px;
+  }
+
+  .mp-founders {
+    margin-top: 65px;
+  }
+
+  .mp-founders-heading {
+    margin-bottom: 28px;
+  }
+
+  .mp-founders-heading h2 {
+    font-size: 30px;
+  }
+
+  .mp-founders-grid {
+    gap: 12px;
+  }
+
+  .mp-founder-photo img {
+    height: 250px;
+    object-position: center 25%;
+  }
+
+  .mp-founder-photo figcaption {
+    font-size: 12px;
+    padding-top: 12px;
+  }
+
+  .mp-kit-photo {
+    margin-top: 12px;
+  }
+
+  .mp-kit-photo img {
+    height: 280px;
+  }
+
+  .mp-kit-photo figcaption {
+    font-size: 9px;
+  }
+}
+
+/* TELAS MUITO PEQUENAS */
+
+@media (max-width: 359px) {
+  .mp-founder-photo img {
+    height: 205px;
+  }
+
+  .mp-founders-heading h2 {
+    font-size: 27px;
+  }
+}
+
+/* FOTO DO KIT MP EYEWEAR - TAMANHO AJUSTADO */
+
+.mp-kit-photo {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 400px;
+  margin: 25px auto 0;
+}
+
+.mp-kit-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.mp-kit-photo figcaption {
+  margin-top: 12px;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: #8D6D5B;
+  text-align: center;
+}
+
+/* CELULAR */
+
+@media (max-width: 767px) {
+  .mp-kit-photo {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .mp-kit-photo img {
+    width: 100%;
+    height: 20px;
+  }
+}
